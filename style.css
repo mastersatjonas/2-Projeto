@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto" sans-serif;
+
+}
+
+header {
+    margin: 20px 0 80px 75px;
+    
+}
+
+
+
+.logo-tipo {
+    display:flex;
+    display: block;
+    width: 200px;
+    height: 150px;
+    margin: 48px 10px 0 50px;
+    filter: drop-shadow(0px 4px 4px rgb(118, 7, 146));
+}
+
+.link-header {
+    top: 0;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: rgb(134, 16, 132);
+    margin-right: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+main{
+    display: inline-block;
+    margin-left: 150px;
+    width: 530px;
+    height: 79px;
+}
+h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: black;
+}
+p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgb(42, 163, 123);
+}
+.botão-saiba-mais{
+    color: #FFF;
+    background-color: green;
+    border: none;
+    height: 40px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.imagem-leitura{
+    
+    position:fixed;
+    height: 400px;
+    width: 600px;
+}
